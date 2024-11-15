@@ -1,1 +1,50 @@
-/* место для вашего кода */
+/*header*/
+
+.header {
+  padding: 92px 50px;
+}
+
+.header__logo-image {
+  width: 148px;
+  height: 105px;
+}
+.header__menu {
+  display: grid;
+  grid-template-columns: 1fr 148px 1fr;
+}
+.header__link {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21.13px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  text-decoration-skip-ink: none;
+  text-underline-position: from-font;
+}
+
+.header__links-list {
+  display: flex;
+  align-items: center;
+  gap: 31px;
+}
+.header__links-list-item {
+  list-style: circle;
+}
+.header__links-list-item_no-bullet  {
+  list-style: none;
+}
+.header__address {
+  font-family: Raleway;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 24.3px;
+}
+.telephone {
+  text-underline-offset: 4px;
+}
+.address {
+  justify-self: end;
+  align-self: center;
+}
+/*cover*/
