@@ -48,3 +48,23 @@
   align-self: center;
 }
 /*cover*/
+.cover {
+  background-image: url(/images/cover.jpg);
+  background-size: cover;
+  position: relative;
+}
+.overlay {
+ position: absolute;
+ inset: 0;
+ z-index: 1;
+ background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+
+/*заглушка*/
+.loti {
+  margin-top: 179px;
+}
