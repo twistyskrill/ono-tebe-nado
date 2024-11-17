@@ -8,10 +8,12 @@
   width: 148px;
   height: 105px;
 }
+
 .header__menu {
   display: grid;
   grid-template-columns: 1fr 148px 1fr;
 }
+
 .header__link {
   font-size: 18px;
   line-height: 21.13px;
@@ -23,13 +25,16 @@
   align-items: center;
   gap: 31px;
 }
+
 .header__links-list-item {
   text-underline-offset: 4px;
   list-style: circle;
 }
+
 .header__links-list-item_no-bullet  {
   list-style: none;
 }
+
 .header__address {
   font-size: 19px;
   font-style: normal;
@@ -42,33 +47,36 @@
   align-self: center;
   width: 240px;
 }
+
 address {
+  all: initial;
   font-family: Raleway;
   font-weight: 400;
   font-size: 18px;
   line-height: 24.3px;
-  all: initial;
 }
 
-
 /*cover*/
+
 .cover {
   position: relative;
   width: 100%;
-  height: 757px;
+  min-height: 757px;
   background-image: url("/images/cover.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-
 }
+
 .overlay {
  position: absolute;
  inset: 0;
  z-index: 0;
  background-color: rgba(0, 0, 0, 0.6);
 }
+
 /* заголовок */
+
 .cover__title {
   z-index: 1;
   display: block;
@@ -77,19 +85,22 @@ address {
   font-size: 100px;
   letter-spacing: 0.3em;
 }
+
 .aligned-text {
   display: block;
   text-align: left;
-
 }
+
 .aligned-text_center {
   line-height: 1.35;
   text-align: center;
 }
+
 .aligned-text_right {
   line-height: 1;
   text-align: right;
 }
+
 .letter-spacing-extended {
   letter-spacing: 0.6em; 
 } 
@@ -97,6 +108,7 @@ address {
 .no-letter-spacing { 
   letter-spacing: 0em; 
 }
+
 /* подзаголовок и кнопка */
 
 .cover__description {
@@ -127,7 +139,6 @@ address {
   background-color: transparent;
 }
 
-
 /*карточки секция*/
 
 .lots {
@@ -140,6 +151,7 @@ address {
   font-size: 40px;
   line-height: 46.96px;
 }
+
 .lots__card-list {
   display: flex;
   flex-wrap: wrap;
@@ -154,10 +166,12 @@ address {
   width: 334px;
   height: 563px;
 }
+
 .card-link {
   text-decoration: none;
   text-underline-offset: 3px;
 }
+
 .card {
   display: flex;
   flex-direction: column;
@@ -171,13 +185,14 @@ address {
   background-position: center;
   background-size: cover;
 }
+
 .card_type_book {
   background-image: url("/images/card-lot-02.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  
 }
+
 .card_type_picture {
   background-image: url("/images/card-lot-03.jpg");
   background-repeat: no-repeat;
@@ -193,14 +208,13 @@ address {
   line-height: 26.4px;
   text-decoration-line: underline;
   text-transform: uppercase;
-  
 }
+
 .card__text {
   z-index: 1;
   padding-right: 40px;
   padding-bottom: 40px;
   padding-left: 40px;
-  
   color: #fff;
   font-size: 20px;
   line-height: 24px;
@@ -213,8 +227,8 @@ address {
   text-underline-offset: 5px;
 }
 
-
 /*Секция об аукционе */
+
 .about__column {
   display: grid;
   grid-template-columns: 359px 2fr;
@@ -224,7 +238,6 @@ address {
   margin-top: 146px;
   padding: 0 24px;
 }
-
 
 .about__logo {
   display: flex;
@@ -259,7 +272,6 @@ address {
   letter-spacing: 0.01em;
 }
 
-
 /* footer*/
 
 .footer {
@@ -268,6 +280,7 @@ address {
   margin-top: 180px;
   padding: 0 50px 88px 50px;
 }
+
 .footer .address {
   justify-self: start;
 }
