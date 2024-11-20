@@ -166,7 +166,7 @@ address {
 .lots__card-list-item {
   position: relative;
   width: 334px;
-  height: 563px;
+  min-height: 563px;
 }
 
 .card-link {
