@@ -31,7 +31,7 @@
   list-style: circle;
 }
 
-.header__links-list-item_no-bullet  {
+.header__links-list-item_no-bullet {
   list-style: none;
 }
 
@@ -106,7 +106,7 @@ address {
 } 
 
 .no-letter-spacing { 
-  letter-spacing: 0em; 
+  letter-spacing: 0; 
 }
 
 /* подзаголовок и кнопка */
