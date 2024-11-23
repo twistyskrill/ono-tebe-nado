@@ -233,11 +233,11 @@ address {
 
 .about__column {
   display: grid;
-  grid-template-columns: 359px 2fr;
-  grid-template-rows: 283px 1fr;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 240px 1fr;
   justify-items: center;
   align-items: center;
-  margin-top: 146px;
+  margin-top: 188px;
   padding: 0 24px;
 }
 
@@ -262,6 +262,7 @@ address {
   font-size: 40px;
   line-height: 46.96px;
   text-transform: uppercase;
+  padding-left: 6px;
 }
 
 .about__text {
@@ -272,6 +273,8 @@ address {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0.01em;
+  padding-left: 6px;
+  padding-top: 2px;
 }
 
 /* footer*/
